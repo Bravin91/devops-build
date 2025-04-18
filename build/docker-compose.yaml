@@ -1,0 +1,7 @@
+ yaml version: '3'
+ services:
+  react-app:
+    build: .
+    ports:
+      - "80:80"
+    restart: always
